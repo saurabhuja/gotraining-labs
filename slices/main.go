@@ -13,7 +13,7 @@ func main() {
 	colors = append(colors[1 : len(colors)-1])
 	fmt.Println(colors, &colors)
 
-	colorSlices := make([]string, 4, 5)
+	colorSlices := make([]string, 1)
 	colorSlices[0] = "red"
 	fmt.Println(colorSlices, &colorSlices)
 
@@ -27,4 +27,6 @@ func main() {
 	fmt.Println(*p2)
 	sort.Ints(*p2)
 	fmt.Println(p2)
+	fmt.Println(*p2)
+
 }

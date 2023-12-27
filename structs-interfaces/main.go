@@ -14,4 +14,5 @@ func main() {
 	service1.incrementSalary()
 	service1.print()
 	fmt.Println(service1.toJson())
+	fmt.Println(e.Id, e.Name, e.Salary)
 }
